@@ -1,0 +1,33 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+credentials.json
+
+# The ARC-AGI-3-Agents framework (clone separately; do not vendor)
+ARC-AGI-3-Agents/
+
+# Recordings / logs
+recordings/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
